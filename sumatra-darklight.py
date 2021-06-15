@@ -1,6 +1,6 @@
 __author__ = 'Italo Pinto <italosp00@gmail.com>'
 
-SUMATRA_SETTINGS_PATH = r'C:\Users\italo\AppData\Local\SumatraPDF\SumatraPDF-settings.txt'
+SUMATRA_SETTINGS_PATH = r'C:\Users\<user_name>\path\to\SumatraPDF\SumatraPDF-settings.txt'
 
 WHITE = '#ffffff'
 BLACK = '#000000'
