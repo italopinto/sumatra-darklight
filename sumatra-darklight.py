@@ -33,11 +33,11 @@ def txt_write(txt:list, file):
         file.write(line)
 
 
-with open(SUMATRA_SETTINGS_PATH) as smt:
+with open(SUMATRA_SETTINGS_PATH, encoding='utf-8') as smt:
     for x in smt:
         text.append(x)
 
-with open(SUMATRA_SETTINGS_PATH, 'w') as smt:
+with open(SUMATRA_SETTINGS_PATH, 'w', encoding='utf-8') as smt:
     for line in text:
 
         if KEY_1 in line:
